@@ -9,13 +9,13 @@ let num = 7;
 // }
 
 // Same thing written with Ternary Operator...
-num === 7 ? console.log('lucky!') : console.log('BAD!');
+num === 7 ? console.log("lucky!") : console.log("BAD!");
 
 // ==============
 // EXAMPLE 2
 // ==============
 
-let status = 'offline';
+let status = "offline";
 
 // Without ternary operator
 // let color;
@@ -27,5 +27,5 @@ let status = 'offline';
 // }
 
 // One-liner using Ternary Operator...
-let color = status === 'offline' ? 'red' : 'green';
+let color = status === "offline" ? "red" : "green";
 console.log(color);
