@@ -1,4 +1,4 @@
-let colors = [ 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet' ];
+let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
 // Arrays have a length
 colors.length; //7
