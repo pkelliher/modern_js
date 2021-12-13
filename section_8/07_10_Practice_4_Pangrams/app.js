@@ -5,3 +5,13 @@
 
 // isPangram('The five boxing wizards jump quickly') //true
 // isPangram('The five boxing wizards jump quick') //false
+
+function containsAllVowels(str) {
+  let lowerCased = str.toLowerCase();
+  for (let char of "aeiou") {
+    if (lowerCased.indexOf(char) === -1) {
+      return false;
+    }
+  }
+  return true;
+}
