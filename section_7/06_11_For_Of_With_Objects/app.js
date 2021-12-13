@@ -1,12 +1,12 @@
 const movieReviews = {
-	Arrival                : 9.5,
-	Alien                  : 9,
-	Amelie                 : 8,
-	'In Bruges'            : 9,
-	Amadeus                : 10,
-	'Kill Bill'            : 8,
-	'Little Miss Sunshine' : 8.5,
-	Coraline               : 7.5
+  Arrival: 9.5,
+  Alien: 9,
+  Amelie: 8,
+  "In Bruges": 9,
+  Amadeus: 10,
+  "Kill Bill": 8,
+  "Little Miss Sunshine": 8.5,
+  Coraline: 7.5,
 };
 
 // THIS DOES NOT WORK!
@@ -17,7 +17,7 @@ const movieReviews = {
 
 // We CAN iterate over the keys of an object
 for (let movie of Object.keys(movieReviews)) {
-	console.log(`You rated ${movie} - ${movieReviews[movie]}`);
+  console.log(`You rated ${movie} - ${movieReviews[movie]}`);
 }
 
 // We can also iterate over the values
@@ -25,7 +25,7 @@ for (let movie of Object.keys(movieReviews)) {
 const ratings = Object.values(movieReviews);
 let total = 0;
 for (let r of ratings) {
-	total += r;
+  total += r;
 }
 let avg = total / ratings.length;
-console.log('Average Rating: ', avg);
+console.log("Average Rating: ", avg);
